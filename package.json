@@ -1,0 +1,20 @@
+{
+  "name": "@vyacheslav-hub/ajs_0.1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Vyacheslav-hub/ajs_0.1#readme",
+  "bugs": {
+    "url": "https://github.com/Vyacheslav-hub/ajs_0.1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyacheslav-hub/ajs_0.1.git"
+  },
+  "license": "ISC",
+  "author": "Vyacheslav",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
