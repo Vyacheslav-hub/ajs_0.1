@@ -1,5 +1,5 @@
 {
-  "name": "@vyacheslav-hub/ajs_0.1",
+  "name": "@vyacheslav-hub/ajs",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/Vyacheslav-hub/ajs_0.1#readme",
@@ -14,8 +14,12 @@
   "author": "Vyacheslav",
   "type": "commonjs",
   "main": "dist/index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.6",
